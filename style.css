@@ -1,0 +1,17 @@
+/* ===== Base ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #1f2430;
+  background: #f5f6f8;
+}
+
+/* =========================================================
+   Escribí tus estilos aquí, siguiendo el diseño de Figma:
+   el encabezado, el buscador, el filtro, la grilla y las
+   tarjetas de producto.
+   ========================================================= */

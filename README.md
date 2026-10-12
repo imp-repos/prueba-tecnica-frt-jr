@@ -21,22 +21,38 @@ Vas a construir un **catálogo de productos** de una tienda (NovaTech) a partir
 del diseño que te damos. Es una sola pantalla: una grilla de tarjetas de
 productos, con un buscador y un filtro por categoría.
 
-Te damos los datos de los productos en un archivo; tu trabajo es mostrarlos en
-pantalla y que se puedan filtrar.
+El **diseño de Figma es la guía que debes seguir**: muestra la estructura de
+la página (cómo se acomoda todo) y el estilo de cada parte del contenido
+(colores, tamaños, tipografía, espacios). Tu objetivo es que tu resultado se
+parezca a ese diseño.
+
+Te damos los datos de los productos en este mismo repositorio; tu trabajo es
+mostrarlos en pantalla y que se puedan filtrar.
 
 ---
 
 ## Qué recibes
 
-- **Los datos** de los productos en un archivo JSON (`novatech-productos.json`):
-  cada producto trae nombre, categoría, precio, una descripción corta y un
-  color.
-- **El diseño** de referencia (Figma o imagen) para que lo repliques.
+- **Los datos** de los productos, ya incluidos en el repositorio. Cada producto
+  trae nombre, categoría, precio, una descripción corta y un color.
+- **El diseño** de referencia en Figma:
+  https://www.figma.com/design/VCvcwfUKuZzxox2f2k3ES8/Prueba-Tecnica-JR
 
-Links:
+---
 
-- Repositorio o carpeta base: ______________________________
-- Diseño (Figma): ______________________________
+## Cómo correr y estructura del proyecto
+
+No necesitás instalar nada. Abrí `index.html` en tu navegador (doble clic). Si
+usás VS Code, también podés abrirlo con la extensión "Live Server".
+
+- `index.html` -> la estructura base de la página.
+- `style.css` -> tus estilos (está casi vacío a propósito).
+- `script.js` -> tu código JavaScript, con comentarios que te guían por dónde
+  empezar.
+- `data.js` -> los datos de los productos, ya cargados en la variable `datos`
+  (`datos.productos` y `datos.categorias`).
+- `novatech-productos.json` -> los mismos datos en formato JSON, por si preferís
+  usarlos así.
 
 ---
 
